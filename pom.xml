@@ -87,7 +87,15 @@
 		</dependency>
 
 	</dependencies>
-	
+	<repositories>
+        <repository>
+          <id>central</id>
+          <url>http://52.66.10.226:8081/repository/maven-proxy/</url>
+          <releases><enabled>true</enabled></releases>
+          <snapshots><enabled>true</enabled></snapshots>
+        </repository>
+	</repositories>
+
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
